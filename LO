@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/ire3tit.css">
+    <title>Ici</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Silkscreen&display=swap');
+    h1{ 
+        color: rgb(210, 177, 241);
+        font-family: gopher;
+        text-align: center;
+        font-size: 100px;
+    }
+    label{
+        text-align: center;
+        font-family: 'Silkscreen', cursive;
+        color: #f4f0f8;
+        font-size: 50px;
+        font-style: bold;
+    }
+    body{background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #7f40b7 50%, #e285cf 100%);background-size:100% 100%;
+min-height: 100vh;}
+
+img{
+   padding: 3em;
+}
+    
+    button{
+            border-radius: 100px;
+            color: rgb(91, 38, 84);
+            background-color: rgb(202, 147, 219);
+            border-color: rgb(89, 28, 105);
+            font-size: 24px;
+            padding: 10px 5px;
+            width: 200px;
+            font-family:'Silkscreen', cursive;
+            
+
+            }
+            .formulaire.p{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+</style>
+</head>
+<body>
+    <h1>Coucou microbe</h1>
+    <div class= formulaire>
+        <form action="#" method="post">
+            <label for="al">
+                Veux-tu sortir avec moi?
+            </label>
+            <button type="button" onclick="window.open('https://i.pinimg.com/originals/9e/c2/a2/9ec2a2e85e39cc2c9104de3b5b8a40c6.gif', '_blank');" ">oui :)</button>
+            <button type="button"  onclick="window.open('https://assets.puzzlefactory.com/puzzle/302/740/original.jpg', '_blank');" >non :(</button>
+           <img src="https://media.tenor.com/HzSDTiXypHIAAAAC/kawaii-cute.gif" alt="">
+        </form>
+    </div>
+
+</body>
+</html>
